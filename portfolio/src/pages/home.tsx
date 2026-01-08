@@ -1,7 +1,6 @@
 import MotionDivWrapper from "@/features/motion.div.wrapper";
 import ProjectsSection from "@/features/projects.section";
 import SkillsSection from "@/features/skills.section";
-import WhereSection from "@/features/where.section";
 import { Link } from "react-router-dom";
 import Button from "@/primitives/button";
 
@@ -29,11 +28,6 @@ export default function HomePage() {
 						View All Projects
 					</Button>
 				</Link>
-			</div>
-			<div className="bg-gray-elevation-2">
-				<div className="bg-[url(/background.png)] bg-repeat bg-center pt-6 pb-10">
-					<WhereSection />
-				</div>
 			</div>
 		</MotionDivWrapper>
 	);
