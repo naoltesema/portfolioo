@@ -8,7 +8,6 @@ import {
 import { MorphingText } from "@/components/morphing.text";
 import { ContentNavigation } from "@/features/content.navigation";
 import Button from "@/primitives/button";
-import { Icon } from "@/primitives/icon";
 import Image from "@/components/image";
 
 function HeroSection() {
