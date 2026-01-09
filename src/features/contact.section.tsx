@@ -11,21 +11,21 @@ function ContactSection() {
 	};
 
 	return (
-		<section className="container py-10">
-			<div className="bg-gray-elevation-2 rounded-3xl py-16 px-8 flex flex-col items-center gap-6">
-				<h2 className="font-black text-4xl md:text-5xl lg:text-6xl text-gray-text-primary-hover">
+		<section className="container py-6 md:py-10">
+			<div className="bg-gray-elevation-2 rounded-3xl py-10 md:py-16 px-4 md:px-8 flex flex-col items-center gap-4 md:gap-6">
+				<h2 className="font-black text-3xl md:text-5xl lg:text-6xl text-gray-text-primary-hover text-center">
 					Thank you
 				</h2>
-				<p className="text-gray-text-secondary text-lg">
+				<p className="text-gray-text-secondary text-base md:text-lg text-center">
 					Don't forget to contact me
 				</p>
-				<form onSubmit={handleSubmit} className="flex gap-3 mt-4">
+				<form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 mt-4 w-full sm:w-auto px-4 sm:px-0">
 					<input
 						type="email"
 						value={email}
 						onChange={(e) => setEmail(e.target.value)}
 						placeholder="your.email@gmail.com"
-						className="bg-gray-elevation-3 border border-gray-elevation-3-border rounded-full px-6 py-3 min-w-[300px] text-gray-text-secondary placeholder:text-gray-text-tertiary focus:border-gray-elevation-3-border-hover"
+						className="bg-gray-elevation-3 border border-gray-elevation-3-border rounded-full px-6 py-3 w-full sm:min-w-[300px] text-gray-text-secondary placeholder:text-gray-text-tertiary focus:border-gray-elevation-3-border-hover"
 					/>
 					<button
 						type="submit"

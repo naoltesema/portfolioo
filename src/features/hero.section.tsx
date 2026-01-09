@@ -13,11 +13,11 @@ import Image from "@/components/image";
 
 function HeroSection() {
 	return (
-		<main className="flex gap-14 w-full container">
+		<main className="flex flex-col md:flex-row gap-6 md:gap-14 w-full container">
 			<HeroText />
-			<div className="flex justify-center items-center py-14 grow">
-				<ToolsUsedCircleIcon />
-			</div>
+		<div className="hidden md:flex justify-center items-center py-14 grow">
+			<ToolsUsedCircleIcon />
+		</div>
 		</main>
 	);
 }

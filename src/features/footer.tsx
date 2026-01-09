@@ -76,7 +76,7 @@ function Footer() {
 					)}
 				</ListBox>
 				<p className="text-center">
-					&copy; {new Date().getFullYear()} Naol.Builds. All rights reserved.
+					&copy; {new Date().getFullYear()} naol.space. stay hungry, stay foolish.
 				</p>
 				<p className="text-center">Made with love.</p>
 			</div>

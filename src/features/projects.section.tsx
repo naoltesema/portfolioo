@@ -29,7 +29,7 @@ export default ProjectsSection;
 function ProjectPreview({ project }: { project: Project }) {
 	const IconComponent = project.icon;
 	return (
-		<div className="flex gap-10 bg-[url(/background.png)] bg-repeat bg-center p-6 pt-14 border-4 rounded-3xl min-w-[400px]">
+		<div className="flex flex-col sm:flex-row gap-6 sm:gap-10 bg-[url(/background.png)] bg-repeat bg-center p-4 sm:p-6 pt-8 sm:pt-14 border-4 rounded-3xl min-w-[280px] sm:min-w-[400px]">
 			<ProjectsDescription project={project} />
 			{IconComponent && <IconComponent />}
 		</div>

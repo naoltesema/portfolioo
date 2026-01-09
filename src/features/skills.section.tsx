@@ -17,7 +17,7 @@ export default function SkillsSection() {
 
 function Skills() {
 	return (
-		<div className="flex justify-center gap-40">
+		<div className="flex flex-col md:flex-row justify-center gap-10 md:gap-40">
 			<div className="flex flex-col gap-6">
 				<div className="flex gap-2">
 					<FlutterIcon />
@@ -58,7 +58,7 @@ function Skills() {
 					</div>
 				</div>
 			</div>
-			<div className="self-stretch bg-gray-elevation-4 w-4">{}</div>
+			<div className="hidden md:block self-stretch bg-gray-elevation-4 w-4">{}</div>
 			<div className="flex flex-col">
 				<div className="flex gap-2">
 					<FigmaIcon />
