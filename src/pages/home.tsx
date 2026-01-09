@@ -1,6 +1,7 @@
 import MotionDivWrapper from "@/features/motion.div.wrapper";
 import ProjectsSection from "@/features/projects.section";
 import SkillsSection from "@/features/skills.section";
+import ContactSection from "@/features/contact.section";
 import { Link } from "react-router-dom";
 import Button from "@/primitives/button";
 
@@ -29,6 +30,7 @@ export default function HomePage() {
 					</Button>
 				</Link>
 			</div>
+			<ContactSection />
 		</MotionDivWrapper>
 	);
 }

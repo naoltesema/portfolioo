@@ -82,13 +82,6 @@ function SocialMediaLinks() {
 		<div className="flex gap-3">
 			<Button
 				className={
-					"px-6 py-1.5 gap-2 bg-green rounded-full text-gray-elevation-2 flex items-center justify-center font-bold"
-				}
-			>
-				<span>Leave message</span> <Icon name="Send" />
-			</Button>
-			<Button
-				className={
 					"rounded-lg flex items-center justify-center px-2 py-1.5 border-2 hover:text-green-text-primary hover:border-green-elevation-2-border hover:bg-green-elevation-2"
 				}
 			>

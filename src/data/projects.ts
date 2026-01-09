@@ -54,6 +54,7 @@ export const projects: Project[] = [
 		technologies: ["react", "typescript", "next.js"],
 		downloadUrl: "#",
 		githubUrl: "#",
+		icon: RuminateProjectSvg,
 		featured: true,
 	},
 	{

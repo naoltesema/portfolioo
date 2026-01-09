@@ -17,10 +17,6 @@ export const navigationItems = [
 		name: "Project",
 		href: paths.app.projects.getHref(),
 	},
-	{
-		name: "BucketList",
-		href: paths.app.bucketList.getHref(),
-	},
 ];
 
 export default function Navbar({ page }: { page: string }) {
